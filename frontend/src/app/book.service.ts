@@ -4,7 +4,7 @@ import { HttpClient } from '@angular/common/http';
 @Injectable({ providedIn: 'root' })
 export class BookService {
 
-  private base = 'http://localhost:5000';
+  private base = 'https://library-management-system-el4c.onrender.com';
 
   constructor(private http: HttpClient) {}
 
